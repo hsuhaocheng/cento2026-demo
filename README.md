@@ -17,6 +17,32 @@
 | 標記與意見 | 在任何一格上手繪，可設定停留幾格；每卡留意見、標 OK／要改／待討論 |
 | 輸出 | MOV（H.264，可含聲音）或 WebM，合併或每卡一支，逐格精準 |
 
+## 運作方式
+
+### 什麼會切成一卡
+
+![什麼會切成一卡](media/rule-cuts.svg)
+
+合成裡每個有畫面的圖層開始的時間點，就是一卡的開頭。調整圖層、空物件、文字圖層、音訊圖層不算。**被蓋住的圖層也算**：某一卡被莫名切成兩卡時，通常是那裡有個看不見的圖層開始了。
+
+### 多張圖做成一個預合成 ＝ 一卡
+
+![多張圖做成一個預合成 = 一卡](media/rule-precomp.svg)
+
+一卡裡要換好幾張圖時，選取那些圖層按 **Ctrl+Shift+C** 做成預合成，主合成裡就只有一個圖層、只算一卡。
+
+### 刪卡、加卡之後的卡號
+
+![刪卡、加卡之後的卡號](media/rule-numbers.svg)
+
+卡號不存死，每次同步都照順序重算。同步後，CENTO 會列出 AE 裡刪掉和新增的卡：
+
+- 刪掉的卡按「**留空號**」，它的卡號會保留成空格，後面的卡號不動。
+- 新增的卡按「**改成後綴**」，它會變成前一卡的 A、B…，後面的卡號不動。
+- 什麼都不按就是遞補。
+
+文字、意見、狀態、標記都跟著卡走，不會因為卡號改變而錯位。之後想改，也可以在右側勾「後綴」，或用清單上方的「＋」「－」插入、刪除空號。
+
 ## 安裝（Windows）
 
 1. 下載 [最新版](../../releases/latest) 並解壓縮
@@ -44,6 +70,8 @@
 CENTO reads the shots of a comp into a board: step through frames, draw on them, leave notes and a status per cut, and export a review video with cut numbers, marks and sound burned in. **Your AE project is never modified.**
 
 **➜ [Download the demo](../../releases/latest) · [Feedback form](https://forms.gle/M2zJ1emx3J9fPmCz8)**
+
+**How cuts work:** a cut starts wherever a layer with pictures starts in the comp (layers hidden under others count too). Put several pictures into one precomp and they are one cut. Cut numbers are recounted on every sync: by default later numbers close up; keep a deleted cut as a **blank** or make a new one a **suffix** (024A) so nobody else's numbers change. See the diagrams above.
 
 **Install (Windows):** download and extract, close AE, double-click `install.cmd`, then open **Window → Extensions → CENTO**. Needs After Effects 2022+ on Windows 10/11; macOS is not supported yet.
 
