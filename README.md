@@ -8,7 +8,7 @@
 
 **CENTO** 把合成裡的鏡頭讀成一張看板：逐格檢視、直接在畫面上畫標記、每一卡留意見與狀態，最後一鍵輸出帶卡號、標記與聲音的審片影片。**不會改動你的 AE 專案。**
 
-**➜ [下載測試版](../../releases/latest)　·　[填寫回饋表單](https://forms.gle/M2zJ1emx3J9fPmCz8)**
+**➜ [下載測試版（Windows）](https://github.com/hsuhaocheng/cento2026-demo/releases/latest/download/cento-demo-win.zip)　·　[填寫回饋表單](https://forms.gle/M2zJ1emx3J9fPmCz8)**
 
 | | |
 |---|---|
@@ -45,7 +45,7 @@
 
 ## 安裝（Windows）
 
-1. 下載 [最新版](../../releases/latest) 並解壓縮
+1. 下載 [cento-demo-win.zip](https://github.com/hsuhaocheng/cento2026-demo/releases/latest/download/cento-demo-win.zip) 並解壓縮（[所有版本](../../releases)）
 2. 關閉 After Effects，雙擊 `install.cmd`
 3. 開 AE：**視窗 → 延伸功能 → CENTO**
 
@@ -69,7 +69,7 @@
 
 CENTO reads the shots of a comp into a board: step through frames, draw on them, leave notes and a status per cut, and export a review video with cut numbers, marks and sound burned in. **Your AE project is never modified.**
 
-**➜ [Download the demo](../../releases/latest) · [Feedback form](https://forms.gle/M2zJ1emx3J9fPmCz8)**
+**➜ [Download the demo (Windows)](https://github.com/hsuhaocheng/cento2026-demo/releases/latest/download/cento-demo-win.zip) · [Feedback form](https://forms.gle/M2zJ1emx3J9fPmCz8)**
 
 **How cuts work:** a cut starts wherever a layer with pictures starts in the comp (layers hidden under others count too). Put several pictures into one precomp and they are one cut. Cut numbers are recounted on every sync: by default later numbers close up; keep a deleted cut as a **blank** or make a new one a **suffix** (024A) so nobody else's numbers change. See the diagrams above.
 
