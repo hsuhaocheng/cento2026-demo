@@ -1,0 +1,53 @@
+CENTO 測試版授權條款 / CENTO Demo License
+
+Copyright (c) 2026 HSU HAO (hsuhaocheng). All rights reserved.
+版權所有，保留一切權利。
+
+1. 授權範圍 / Grant
+   你可以免費在自己的電腦上安裝與使用本測試版（下稱「本軟體」），
+   用於你自己的作品與案件，包括商業案件。
+   You may install and use this demo build (the "Software") free of charge on
+   your own computers, for your own work and projects, including commercial
+   projects.
+
+2. 限制 / Restrictions
+   未經書面同意，你不得：
+   Without written permission you may not:
+   (a) 散布、分享或公開本軟體或其安裝檔（請改為分享官方下載頁連結）；
+       distribute, share or publish the Software or its installer (share the
+       official download page instead);
+   (b) 修改本軟體，或將其反組譯、還原工程；
+       modify, decompile or reverse-engineer the Software;
+   (c) 販售、轉售、出租本軟體，或將它包含在其他販售的產品中；
+       sell, resell or rent the Software, or include it in a product for sale;
+   (d) 移除、遮蓋或更改輸出影片上的浮水印。
+       remove, hide or alter the watermark on exported videos.
+
+   你用本軟體輸出的影片屬於你，可以自由使用（浮水印須保留）。
+   Videos you export with the Software are yours to use (with the watermark
+   intact).
+
+3. 權利保留 / Reservation of rights
+   本軟體及其正式版、後續版本的一切權利均由著作權人保留，本授權不移轉任何所有權。
+   著作權人可以隨時停止提供測試版。
+   All rights in the Software and in any full or later version are reserved by
+   the copyright holder. No ownership is transferred. The copyright holder may
+   stop offering the demo at any time.
+
+4. 第三方元件 / Third-party components
+   安裝程式會另外下載 FFmpeg（https://ffmpeg.org），它依其自身的授權條款（GPL）提供，
+   不屬於本授權範圍。
+   The installer downloads FFmpeg (https://ffmpeg.org) separately. It is
+   provided under its own license (GPL) and is not covered by this license.
+
+5. 無擔保 / No warranty
+   本軟體為開發中的測試版，依「現狀」提供，不提供任何明示或默示的擔保。
+   請在使用前備份你的專案。對於因使用本軟體所造成的任何損失，著作權人不負責任。
+   The Software is a work-in-progress demo provided "as is", without warranty of
+   any kind. Back up your projects. The copyright holder is not liable for any
+   damage arising from its use.
+
+6. 回饋 / Feedback
+   你提供的意見與建議，著作權人可以自由用於改進本軟體，無須另行補償。
+   Feedback and suggestions you give may be used freely to improve the Software,
+   without compensation.
